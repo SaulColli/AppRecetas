@@ -24,7 +24,9 @@ class WelcomePage extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.only(left: 16, right: 16, bottom: 32),
               width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height * 60 / 100,
+              height: MediaQuery.of(context).size.height *
+                  80 /
+                  100, //La altitud del logo
               decoration: BoxDecoration(gradient: AppColor.linearBlackBottom),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -32,8 +34,9 @@ class WelcomePage extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.center,
-                    children: const [
-                      Padding(
+                    children: [
+                      _imageLogo('assets/images/logo.png'),
+                      const Padding(
                         padding: EdgeInsets.only(bottom: 16),
                         child: Text('“K´I KI´IL JANAL” ',
                             style: TextStyle(
@@ -165,7 +168,7 @@ Widget _imageLogo(String logo) {
   return Row(mainAxisAlignment: MainAxisAlignment.center, //Centrar la imagen
       children: [
         Image.asset(
-          'assets/images/Logo_app2.png', //Poner simplemente éste código no es suficiente para iportar una imagen, debemos ir al archivo pubspec.yaml e ir al apartado de assets
+          'assets/images/logo.png', //Poner simplemente éste código no es suficiente para iportar una imagen, debemos ir al archivo pubspec.yaml e ir al apartado de assets
           width: 200, //Ancho
           //height: 100,  //Alto
         ),
