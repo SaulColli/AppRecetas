@@ -203,26 +203,28 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
                       margin: const EdgeInsets.only(left: 5),
                       child: Text(
                         widget.data.calories,
-                        style: TextStyle(color: Colors.white, fontSize: 12),
+                        style:
+                            const TextStyle(color: Colors.white, fontSize: 12),
                       ),
                     ),
-                    SizedBox(width: 10),
-                    Icon(Icons.alarm, size: 16, color: Colors.white),
+                    const SizedBox(width: 10),
+                    const Icon(Icons.alarm, size: 16, color: Colors.white),
                     Container(
-                      margin: EdgeInsets.only(left: 5),
+                      margin: const EdgeInsets.only(left: 5),
                       child: Text(
                         widget.data.time,
-                        style: TextStyle(color: Colors.white, fontSize: 12),
+                        style:
+                            const TextStyle(color: Colors.white, fontSize: 12),
                       ),
                     ),
                   ],
                 ),
                 // Recipe Title
                 Container(
-                  margin: EdgeInsets.only(bottom: 12, top: 16),
+                  margin: const EdgeInsets.only(bottom: 12, top: 16),
                   child: Text(
                     widget.data.title,
-                    style: TextStyle(
+                    style: const TextStyle(
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w600,
@@ -254,10 +256,10 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
               },
               labelColor: Colors.black,
               unselectedLabelColor: Colors.black.withOpacity(0.6),
-              labelStyle:
-                  TextStyle(fontFamily: 'inter', fontWeight: FontWeight.w500),
+              labelStyle: const TextStyle(
+                  fontFamily: 'inter', fontWeight: FontWeight.w500),
               indicatorColor: Colors.black,
-              tabs: [
+              tabs: const [
                 Tab(
                   text: 'Ingridients',
                 ),
@@ -279,7 +281,7 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
                 shrinkWrap: true,
                 padding: EdgeInsets.zero,
                 itemCount: widget.data.ingridients.length,
-                physics: NeverScrollableScrollPhysics(),
+                physics: const NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) {
                   return IngridientTile(
                     data: widget.data.ingridients[index],
@@ -291,7 +293,7 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
                 shrinkWrap: true,
                 padding: EdgeInsets.zero,
                 itemCount: widget.data.tutorial.length,
-                physics: NeverScrollableScrollPhysics(),
+                physics: const NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) {
                   return StepTile(
                     data: widget.data.tutorial[index],
