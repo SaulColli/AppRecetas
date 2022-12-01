@@ -16,7 +16,7 @@ class WelcomePage extends StatelessWidget {
             height: MediaQuery.of(context).size.height,
             decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/images/bg.jpg'),
+                    image: AssetImage('assets/images/bggg.jpg'),
                     fit: BoxFit.cover)),
           ),
           Positioned(
@@ -45,7 +45,7 @@ class WelcomePage extends StatelessWidget {
                                 fontSize: 32,
                                 color: Colors.white)),
                       ),
-                      Text("EL SAZON DE NUESTROS ANCESTROS",
+                      const Text("EL SAZON DE NUESTROS ANCESTROS",
                           style: TextStyle(color: Colors.white)),
                     ],
                   ),
@@ -53,14 +53,15 @@ class WelcomePage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
+                      const SizedBox(height: 16),
                       // Get Started Button
                       SizedBox(
                         width: MediaQuery.of(context).size.width,
                         height: 60,
                         child: ElevatedButton(
-                          child: Text('Get Started',
+                          child: Text('Ingresar',
                               style: TextStyle(
-                                  color: AppColor.secondary,
+                                  color: AppColor.primarySoft,
                                   fontSize: 16,
                                   fontWeight: FontWeight.w600,
                                   fontFamily: 'inter')),
@@ -80,40 +81,7 @@ class WelcomePage extends StatelessWidget {
                           style: ElevatedButton.styleFrom(
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10)),
-                            primary: AppColor.primarySoft,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 16),
-                      // Log in Button
-                      SizedBox(
-                        width: MediaQuery.of(context).size.width,
-                        height: 60,
-                        child: OutlinedButton(
-                          child: Text('Log in',
-                              style: TextStyle(
-                                  color: AppColor.secondary,
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w600,
-                                  fontFamily: 'inter')),
-                          onPressed: () {
-                            // showModalBottomSheet(
-                            //   context: context,
-                            //   backgroundColor: Colors.white,
-                            //   shape: const RoundedRectangleBorder(borderRadius: BorderRadius.only(topLeft: Radius.circular(20), topRight: Radius.circular(20))),
-                            //   isScrollControlled: true,
-                            //   builder: (context) {
-                            //     return LoginModal();
-                            //   },
-                            // );
-                          },
-                          style: OutlinedButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10)),
-                            side: BorderSide(
-                                color: AppColor.secondary.withOpacity(0.5),
-                                width: 1),
-                            primary: Colors.white,
+                            primary: AppColor.secondary,
                           ),
                         ),
                       ),
@@ -123,26 +91,13 @@ class WelcomePage extends StatelessWidget {
                         child: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(
-                            text: 'By joining Hungry, you agree to our ',
+                            text: 'POWERED BY ',
                             style: TextStyle(
                                 color: Colors.white.withOpacity(0.6),
                                 height: 150 / 100),
                             children: [
                               TextSpan(
-                                text: 'Terms of service ',
-                                style: TextStyle(
-                                    color: Colors.white.withOpacity(0.6),
-                                    fontWeight: FontWeight.w700,
-                                    height: 150 / 100),
-                              ),
-                              TextSpan(
-                                text: 'and ',
-                                style: TextStyle(
-                                    color: Colors.white.withOpacity(0.6),
-                                    height: 150 / 100),
-                              ),
-                              TextSpan(
-                                text: 'Privacy policy.',
+                                text: 'K´I KI´IL JANAL',
                                 style: TextStyle(
                                     color: Colors.white.withOpacity(0.6),
                                     fontWeight: FontWeight.w700,

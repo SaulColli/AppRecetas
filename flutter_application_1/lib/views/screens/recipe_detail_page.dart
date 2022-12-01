@@ -24,7 +24,7 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 2, vsync: this);
     _scrollController = ScrollController(initialScrollOffset: 0.0);
     _scrollController.addListener(() {
       changeAppBarColor(_scrollController);
@@ -75,7 +75,7 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
             brightness: Brightness.dark,
             elevation: 0,
             centerTitle: true,
-            title: const Text('Search Recipe',
+            title: const Text('Receta',
                 style: TextStyle(
                     fontFamily: 'inter',
                     fontWeight: FontWeight.w400,
@@ -86,12 +86,6 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
                 Navigator.of(context).pop();
               },
             ),
-            actions: [
-              IconButton(
-                  onPressed: () {},
-                  icon: SvgPicture.asset('assets/icons/bookmark.svg',
-                      color: Colors.white)),
-            ],
           ),
         ),
       ),
@@ -193,20 +187,20 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
                 // Recipe Calories and Time
                 Row(
                   children: [
-                    SvgPicture.asset(
-                      'assets/icons/fire-filled.svg',
-                      color: Colors.white,
-                      width: 16,
-                      height: 16,
-                    ),
-                    Container(
-                      margin: const EdgeInsets.only(left: 5),
-                      child: Text(
-                        widget.data.calories,
-                        style:
-                            const TextStyle(color: Colors.white, fontSize: 12),
-                      ),
-                    ),
+                    // SvgPicture.asset(
+                    //   'assets/icons/fire-filled.svg',
+                    //   color: Colors.white,
+                    //   width: 16,
+                    //   height: 16,
+                    // ),
+                    // Container(
+                    //   margin: const EdgeInsets.only(left: 5),
+                    //   child: Text(
+                    //     widget.data.calories,
+                    //     style:
+                    //         const TextStyle(color: Colors.white, fontSize: 12),
+                    //   ),
+                    // ),
                     const SizedBox(width: 10),
                     const Icon(Icons.alarm, size: 16, color: Colors.white),
                     Container(
@@ -232,13 +226,13 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
                   ),
                 ),
                 // Recipe Description
-                Text(
-                  widget.data.description,
-                  style: TextStyle(
-                      color: Colors.white.withOpacity(0.9),
-                      fontSize: 14,
-                      height: 150 / 100),
-                ),
+                // Text(
+                //   widget.data.description,
+                //   style: TextStyle(
+                //       color: Colors.white.withOpacity(0.9),
+                //       fontSize: 14,
+                //       height: 150 / 100),
+                // ),
               ],
             ),
           ),
@@ -261,14 +255,14 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
               indicatorColor: Colors.black,
               tabs: const [
                 Tab(
-                  text: 'Ingridients',
+                  text: 'Ingredientes',
                 ),
                 Tab(
-                  text: 'Tutorial',
+                  text: 'Procedimientos',
                 ),
-                Tab(
-                  text: 'Reviews',
-                ),
+                // Tab(
+                //   text: 'Reviewsss',
+                // ),
               ],
             ),
           ),
@@ -301,15 +295,15 @@ class _RecipeDetailPageState extends State<RecipeDetailPage>
                 },
               ),
               // Reviews
-              ListView.builder(
-                shrinkWrap: true,
-                padding: EdgeInsets.zero,
-                itemCount: widget.data.reviews.length,
-                physics: NeverScrollableScrollPhysics(),
-                itemBuilder: (context, index) {
-                  return ReviewTile(data: widget.data.reviews[index]);
-                },
-              )
+              // ListView.builder(
+              //   shrinkWrap: true,
+              //   padding: EdgeInsets.zero,
+              //   itemCount: widget.data.reviews.length,
+              //   physics: const NeverScrollableScrollPhysics(),
+              //   itemBuilder: (context, index) {
+              //     return ReviewTile(data: widget.data.reviews[index]);
+              //   },
+              // )
             ],
           ),
         ],

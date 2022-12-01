@@ -57,19 +57,19 @@ class RecipeTile extends StatelessWidget {
                     // Recipe Calories and Time
                     Row(
                       children: [
-                        SvgPicture.asset(
-                          'assets/icons/fire-filled.svg',
-                          color: Colors.black,
-                          width: 12,
-                          height: 12,
-                        ),
-                        Container(
-                          margin: const EdgeInsets.only(left: 5),
-                          child: Text(
-                            data.calories,
-                            style: const TextStyle(fontSize: 12),
-                          ),
-                        ),
+                        // SvgPicture.asset(
+                        //   'assets/icons/fire-filled.svg',
+                        //   color: Colors.black,
+                        //   width: 12,
+                        //   height: 12,
+                        // ),
+                        // Container(
+                        //   margin: const EdgeInsets.only(left: 5),
+                        //   child: Text(
+                        //     data.calories,
+                        //     style: const TextStyle(fontSize: 12),
+                        //   ),
+                        // ),
                         const SizedBox(
                           width: 10,
                         ),

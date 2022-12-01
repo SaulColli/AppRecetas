@@ -105,3 +105,20 @@ class Ingridient {
         .toList();
   }
 }
+
+class IngridientUnknow {
+  String name;
+  String photo;
+
+  IngridientUnknow({
+    required this.name,
+    required this.photo,
+  });
+
+  factory IngridientUnknow.fromJson(Map<String, Object> json) {
+    return IngridientUnknow(
+      name: json['name'].toString(),
+      photo: json['photo'].toString(),
+    );
+  }
+}
