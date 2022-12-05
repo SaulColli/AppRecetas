@@ -79,7 +79,7 @@ var newlyPostedRecipeRawData = [
     'description': '',
     'ingridients': [
       {
-        'name': '1 kilo de mas',
+        'name': '1 kilo de masa',
         'size': '',
       },
       {
@@ -153,7 +153,7 @@ var newlyPostedRecipeRawData = [
       {
         'step': 'Paso 7',
         'description':
-            'Cabe señalar que de esta mezcla salen aproximadamente la cantidad de 30 polcancitos',
+            'Cabe señalar que de esta mezcla salen aproximadamente la cantidad de 30 polcancitos.',
       },
       {
         'step': 'Paso 8',
@@ -201,7 +201,7 @@ var newlyPostedRecipeRawData = [
         'size': '',
       },
       {
-        'name': 'Medio pollo de pepita molida',
+        'name': 'Medio kilo de pepita molida',
         'size': '',
       },
       {
@@ -492,11 +492,7 @@ var newlyPostedRecipeRawData = [
         'size': '',
       },
       {
-        'name': 'Una pisca de sal',
-        'size': '',
-      },
-      {
-        'name': 'Una pisca de sal',
+        'name': 'Una pizca de sal',
         'size': '',
       },
     ],
@@ -725,7 +721,7 @@ var newlyPostedRecipeRawData = [
         'size': '',
       },
       {
-        'name': 'una cucharada de orégano molido',
+        'name': 'Una cucharada de orégano molido',
         'size': '',
       },
       {
@@ -749,7 +745,7 @@ var newlyPostedRecipeRawData = [
         'size': '',
       },
       {
-        'name': 'sal',
+        'name': 'Sal',
         'size': '',
       },
     ],
@@ -766,7 +762,7 @@ var newlyPostedRecipeRawData = [
       {
         'step': 'Paso 3',
         'description':
-            'Luego se necesita hasta 200 gramos de chile habanero quemado. para obtener el chile, lo que se realiza con el chile seco se tuesta en una olla o sartén y cuando se prenda los chiles se le hecha agua para apagarlo (NOTA. En este proceso se debe de ser conocer un poco debido a que puede hacer que uno tosa y puede ser peligroso en personas con problemas de respiración o del corazón). Después de tener el chile se procede a colarlo y cambiar de recipiente, seguidamente se licua con un de agua, luego se cuela y se guarda para el preparado, esta mezcla no debe estar muy aguada ya que afecta el picor si tiene mucha agua. Existen lugares donde venden chile ya preparado para cocinar chimole.',
+            'Luego se necesita hasta 200 gramos de chile habanero quemado. Para obtener el chile, lo que se realiza con el chile seco se tuesta en una olla o sartén y cuando se prenda los chiles se le hecha agua para apagarlo (NOTA. En este proceso se debe de conocer un poco debido a que puede hacer que uno tosa y puede ser peligroso en personas con problemas de respiración o del corazón). Después de tener el chile se procede a colarlo y cambiar de recipiente, seguidamente se licua con un litro de agua, luego se cuela y se guarda para el preparado, esta mezcla no debe estar muy aguada ya que afecta el picor si tiene mucha agua. Existen lugares donde venden chile ya preparado para cocinar chimole.',
       },
       {
         'step': 'Paso 4',
@@ -820,11 +816,11 @@ var newlyPostedRecipeRawData = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     'ingridients': [
       {
-        'name': '1 kg Manteca de cerdo',
+        'name': '1 kg de Manteca de cerdo',
         'size': '',
       },
       {
-        'name': '5 kg Masa',
+        'name': '5 kg de Masa',
         'size': '',
       },
       {
@@ -952,7 +948,7 @@ var newlyPostedRecipeRawData = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     'ingridients': [
       {
-        'name': '5 o cuantos prefieras de huevo',
+        'name': '5 huevos o los que prefieras',
         'size': '',
       },
       {
@@ -1023,12 +1019,12 @@ var newlyPostedRecipeRawData = [
     'title': 'Enchiladas "quintanarroenses".',
     'photo': 'assets/images/enchiladas.jpg',
     'calories': '870 Cal',
-    'time': '8 pasos',
+    'time': '7 pasos',
     'description':
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     'ingridients': [
       {
-        'name': 'Tortillas de maíz',
+        'name': '1 kilo de tortillas de maíz',
         'size': '',
       },
       {
@@ -1036,35 +1032,39 @@ var newlyPostedRecipeRawData = [
         'size': '',
       },
       {
-        'name': 'Recado blanco',
+        'name': '100 gramos de recado blanco',
         'size': '',
       },
       {
-        'name': 'Chile ancho',
+        'name': '10 chiles anchos',
         'size': '',
       },
       {
-        'name': 'Chile guajillo',
+        'name': '10 chiles guajillos',
         'size': '',
       },
       {
-        'name': 'Cacahuates',
+        'name': '50 gramos de cacahuates',
         'size': '',
       },
       {
-        'name': 'Almendras',
+        'name': '50 gramos de almendras',
         'size': '',
       },
       {
-        'name': 'Pechuga de pollo',
+        'name': '1.5 kilos de pechuga de pollo',
         'size': '',
       },
       {
-        'name': 'Queso',
+        'name': '100 gramos de queso de bola',
         'size': '',
       },
       {
-        'name': 'Crema',
+        'name': '200 gramos de crema',
+        'size': '',
+      },
+      {
+        'name': 'Medio litro de aceite de cocina',
         'size': '',
       },
     ],
@@ -1076,7 +1076,7 @@ var newlyPostedRecipeRawData = [
       {
         'step': 'Paso 2',
         'description':
-            'Después sancochas la pechuga de pollo con recado blanco al gusto y sal.',
+            'Después sancochas la pechuga de pollo con recado blanco al gusto y sal. Luego se procede a sancochar los chiles en agua dentro de una olla, cuando ya estén cocidos se escurre el agua, después se coloca los chiles dentro de una licuadora, se le agrega un chorrito de agua, sal al gusto,  se le agrega las almendras, los cacahuates y se licua, cuando ya esté todo bien mezclado se coloca la salsa en un recipiente y se guarda para acompañar.',
       },
       {
         'step': 'Paso 3',
@@ -1091,18 +1091,18 @@ var newlyPostedRecipeRawData = [
         'step': 'Paso 5',
         'description': 'Luego las rellenas con pollo y las haces en taco.',
       },
+      // {
+      //   'step': 'Paso 6',
+      //   'description':
+      //       'Después se pone en una licuadora el chile ancho, chile guajillo, cacahuates, almendras se licua con un poco de agua para obtener una salsa.',
+      // },
       {
         'step': 'Paso 6',
-        'description':
-            'Después se pone en una licuadora el chile ancho, chile guajillo, cacahuates, almendras se licua con un poco de agua para obtener una salsa.',
-      },
-      {
-        'step': 'Paso 7',
         'description':
             'Continuando bañas las tortillas con la salsa, le agregas queso y crema al gusto.',
       },
       {
-        'step': 'Paso 8',
+        'step': 'Paso 7',
         'description': 'Y ¡listos a disfrutar!',
       },
     ],
@@ -1158,7 +1158,7 @@ var newlyPostedRecipeRawData = [
         'size': '',
       },
       {
-        'name': 'chile quemado (de preferencia chile habanero)',
+        'name': 'Chile quemado (de preferencia chile habanero)',
         'size': '',
       },
       {
@@ -1166,11 +1166,11 @@ var newlyPostedRecipeRawData = [
         'size': '',
       },
       {
-        'name': 'manteca',
+        'name': 'Manteca',
         'size': '',
       },
       {
-        'name': 'sal',
+        'name': 'Sal',
         'size': '',
       },
     ],
@@ -1202,7 +1202,7 @@ var newlyPostedRecipeRawData = [
       {
         'step': 'Paso 6',
         'description':
-            'De ultimo la masa lo pones en un balde con agua y lo revuelves hasta que quede espeso colarlo con un colador y echarlo a los frijoles lo dejas al juego unos 10 a 15 minutos para que la masa se cuece bien con el frijol lo espeso Sera a tu gusto.',
+            'De ultimo la masa lo pones en un balde con agua y lo revuelves hasta que quede espeso colarlo con un colador y echarlo a los frijoles lo dejas al fuego unos 10 a 15 minutos para que la masa se cuece bien con el frijol lo espeso Sera a tu gusto.',
       },
       {
         'step': 'Paso 7',
@@ -1311,7 +1311,7 @@ var newlyPostedRecipeRawData = [
       {
         'step': 'Paso 7',
         'description':
-            'Después de retira de la candela, se sirve y a disfrutar, se puede acompañar con limón.',
+            'Después se retira de la candela, se sirve y a disfrutar, se puede acompañar con limón.',
       },
     ],
     'reviews': [

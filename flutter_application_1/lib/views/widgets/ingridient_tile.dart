@@ -10,19 +10,24 @@ class IngridientTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width,
+      margin: const EdgeInsets.only(top: 8, left: 8, right: 8),
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
-      decoration: const BoxDecoration(
-          border: Border(bottom: BorderSide(color: Colors.grey, width: 1))),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10),
+        color: Colors.grey[200],
+
+        //border: Border(bottom: BorderSide(color: Colors.grey, width: 1))
+      ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Flexible(
             flex: 9,
-            child: Text(
-              data.name,
-              style: const TextStyle(
-                  fontSize: 14, fontWeight: FontWeight.w600, height: 150 / 100),
-            ),
+            child: Text(data.name,
+                style: const TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w600,
+                    height: 150 / 100)),
           ),
           Flexible(
             flex: 3,
